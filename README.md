@@ -9,8 +9,9 @@ This project provides an end-to-end data analytics lifecycle breakdown of a glob
 
 ### 1. Data Sanitization & Feature Engineering (Microsoft Excel)
 * Checked for transactional integrity, processed data formatting, and verified duplicate boundaries across row IDs.
-* Engineered a strategic corporate metric: **Profit Margin Percentage** using functional evaluation:
-  \[\text{Profit Margin} = \frac{\text{Profit}}{\text{Sales}}\]
+* * Engineered a strategic corporate metric: **Profit Margin Percentage** using the business formula:
+  `Profit Margin = (Profit / Sales) * 100`
+
 
 ### 2. Exploratory Data Analysis (Python Pandas)
 * Executed data manipulation inside Google Colab using multi-dimensional group-by structures.
